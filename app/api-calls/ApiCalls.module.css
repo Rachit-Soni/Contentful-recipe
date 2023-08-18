@@ -1,0 +1,27 @@
+.buttonContainer{
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #0b140b;
+    color: #fff;
+    border: none;
+    border-radius: 25px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+  }
+  
+  .btn:hover {
+    background-color: #6f5114;
+  }
+  
+  .btn:active {
+    background-color: #6f5114;
+  }
+  

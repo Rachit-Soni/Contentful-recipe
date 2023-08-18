@@ -1,0 +1,10 @@
+.recipeContainer{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.heading{
+    text-align: center;
+}

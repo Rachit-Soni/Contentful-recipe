@@ -1,0 +1,33 @@
+/* components/Header.module.css */
+
+.header {
+    background-color: #f0f0f0;
+    padding: 1rem;
+  }
+  
+  .navList {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .navList li {
+    margin-right: 1rem;
+  }
+  
+  .navList li:last-child {
+    margin-right: 0;
+  }
+  
+  .navList li a {
+    color: #333;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: 3px;
+  }
+  
+  .navList li a:hover {
+    background-color: #ddd;
+  }
+  

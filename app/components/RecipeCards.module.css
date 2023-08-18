@@ -1,0 +1,84 @@
+/* styles.module.css */
+
+/* Container to hold the grid of cards */
+.card-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  /* Individual card container */
+  .card {
+    flex-basis: calc(50% - 20px);
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Image placeholder */
+  .image-placeholder {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .image-placeholder img {
+    width: 100%;
+    height: 200px; /* Adjust the height as per your preference */
+    object-fit: cover;
+  }
+  
+  /* Content container */
+  .content {
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Title */
+  /* h4 {
+    font-size: 18px;
+    margin: 0;
+    margin-bottom: 6px;
+  } */
+  
+  /* Cooking time */
+  /* p {
+    font-size: 14px;
+    color: #666;
+    margin: 0;
+  } */
+  
+  /* Actions (Link) */
+  .actions {
+    margin-top: 12px;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+  
+  .actions a {
+    text-decoration: none;
+    padding: 8px 12px;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 4px;
+    text-align: center;
+    transition: background-color 0.3s ease;
+  }
+  
+  .actions a:hover {
+    background-color: #0056b3;
+  }
+  
+  .actions a:active {
+    background-color: #004b9a;
+  }
+  
